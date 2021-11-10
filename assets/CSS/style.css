@@ -12,7 +12,7 @@
 body {
     color: var(--primary-color);  
 }
-header h1 {
+header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
