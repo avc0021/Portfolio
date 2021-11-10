@@ -1,6 +1,17 @@
 :root {
-    --primary-color: #024e76;
+    --primary-color: #21272be1;
+    --secondary-color: #f3eeeb;
+    --tertiary-color: #ce4848;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 body {
-  color: var(--primary-color)  
+    color: var(--primary-color);  
+}
+header h1 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
