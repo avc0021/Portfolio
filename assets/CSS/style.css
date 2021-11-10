@@ -1,0 +1,6 @@
+:root {
+    --primary-color: #024e76;
+}
+body {
+  color: var(--primary-color)  
+}
