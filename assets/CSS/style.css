@@ -61,13 +61,15 @@ header a {
 
 .flex-row {
     text-align: right;
-    display: inline;
-}
-.intro {
-    font size: 50px;
-
+    display: inline-block;
+    margin-left: 100px
 }
 .about h2 {
+    padding: 0 20px 0 100px;
     font-size: 40px;
+    display:inline-block;
+    border-right: 4px solid black;
 }
-/*delete once done */
+
+
+
