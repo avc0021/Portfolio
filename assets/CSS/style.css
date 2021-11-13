@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #21272be1;
+    --primary-color: #0a0c0ee1;
     --secondary-color: #f3eeeb;
     --tertiary-color: #ce4848;
 }
@@ -10,9 +10,48 @@
 }
 
 body {
-    color: var(--primary-color);  
+    color: var(--tertiary-color);  
 }
 header {
+    padding: 0 0 0 40px;
+    display: flex;
+    justify-self: space-between;
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
+header nav {
+    margin: 7px 0;
+    display: flex;
+    padding: 0 0 0 80px;
+  }
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+header nav ul li {
+    display: inline;
+    
+  }
+header nav ul li a {
+    
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+header h1 {
+
+    padding: 7px 80px 15px 0;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.hero {
+    background-image: url("../images/blue\ squares.jpg");
+    background-size: cover;
+    display:block;
+    padding-bottom: 12%;
+}
+/*delete once done */
+* { outline: 1px red solid !important; visibility: visible !important }
