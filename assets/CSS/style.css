@@ -13,6 +13,12 @@ body {
     color: var(--primary-color);  
     background-color: var(--secondary-color);
 }
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+  }
 header {
     text-decoration: none;
     padding: 0 0 0 40px;
@@ -64,9 +70,7 @@ header a {
     display: inline-block;
     margin-left: 100px
 }
-.about h2 {
-   box-sizing: border-box; 
-}
+
 .about h2 {
     box-sizing: border-box;
     padding: 0 20px 0 100px;
@@ -74,11 +78,25 @@ header a {
     display:inline-block;
     border-right: 4px solid black;
 }
+
 .work h2 {
+    box-sizing: border-box;
     padding: 0 29px 0 100px;
     font-size: 40px;
     display:inline-block;
     border-right: 4px solid black;
 }
+.work .step-info .step-img {
+    text-align: right;
+    display: inline-block;
+    margin-left: 100px;
+}
 
-
+}
+.runbuddy {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 100px;
+    }
