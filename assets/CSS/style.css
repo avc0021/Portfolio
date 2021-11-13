@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #0a0c0ee1;
-    --secondary-color: #f3eeeb;
-    --tertiary-color: #ce4848;
+    --primary-color: #0b0d0ef5;
+    --secondary-color: #ebf0f3;
+    --tertiary-color: #4898ce;
 }
 * {
   margin: 0;
@@ -10,19 +10,21 @@
 }
 
 body {
-    color: var(--tertiary-color);  
+    color: var(--primary-color);  
+    background-color: var(--secondary-color);
 }
 header {
+    text-decoration: none;
     padding: 0 0 0 40px;
     display: flex;
     justify-self: space-between;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
 }
 header nav {
     margin: 7px 0;
     display: flex;
     padding: 0 0 0 80px;
+    text-decoration: none;
   }
 header nav ul {
     display: flex;
@@ -34,24 +36,38 @@ header nav ul li {
     
   }
 header nav ul li a {
-    
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
   }
 header h1 {
-
-    padding: 7px 80px 15px 0;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    padding: 0 20px 0 0;
     font-weight: bold;
     font-size: 30px;
     
 }
+header a {
+    text-decoration: none;
+  }
 
 .hero {
-    background-image: url("../images/blue\ squares.jpg");
+    background-image: url("../images/bluelines.jpg");
     background-size: cover;
     display:block;
     padding-bottom: 12%;
 }
+
+.flex-row {
+    text-align: right;
+    display: inline;
+}
+.intro {
+    font size: 50px;
+
+}
+.about h2 {
+    font-size: 40px;
+}
 /*delete once done */
-* { outline: 1px red solid !important; visibility: visible !important }
