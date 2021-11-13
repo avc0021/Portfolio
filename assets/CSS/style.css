@@ -65,6 +65,10 @@ header a {
     margin-left: 100px
 }
 .about h2 {
+   box-sizing: border-box; 
+}
+.about h2 {
+    box-sizing: border-box;
     padding: 0 20px 0 100px;
     font-size: 40px;
     display:inline-block;
