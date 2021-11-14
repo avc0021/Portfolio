@@ -3,6 +3,7 @@
     --secondary-color: #ebf0f3;
     --tertiary-color: #bddaee;
 }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -12,12 +13,14 @@
 body {  
     background-color: var(--tertiary-color);
 }
+
 img {
     float: right;
     width:  100px;
     height: 100px;
     object-fit: cover;
-  }
+}
+
 header {
     text-decoration: none;
     padding: 0 0 0 40px;
@@ -31,8 +34,7 @@ header h1 {
     background-color: #012435;
     padding: 0 20px 0 0;
     font-weight: bold;
-    font-size: 30px;
-    
+    font-size: 30px;   
 }
 
 header nav {
@@ -50,16 +52,17 @@ header nav ul {
 header nav ul li {
     display: inline;
     
-  }
+}
+
 header nav ul li a {
-    margin: 0 30px;
+    margin: 0 50px;
     font-weight: lighter;
     font-size: 22px;
-  }
+}
 
 header a {
     text-decoration: none;
-  }
+}
   
 footer h3 {
     text-align: center;
@@ -79,6 +82,7 @@ footer h3 {
   justify-content: flex-start;
   width: 600px;
   padding: 0 0 0 0;
+  justify-content: center;
 }
 
 .about-info {
@@ -100,12 +104,11 @@ footer h3 {
 
 .work {
     display: flex;
-    font-size: 30px;
-    height: 200px;
+    height: 150px;
     justify-content: flex-start;
     padding: 0 0 0 0;
     width: 600px;
-    font-size: 20px;
+    font-size: 8px;
 }
 
 .work h2 {
@@ -114,13 +117,6 @@ footer h3 {
     font-size: 40px;
     display:inline-block;
     border-right: 4px solid black;
-}
-
-.flex-row h3 {
-    font-size: 10px;
-    display: flex;
-    gap: 1px;
-    flex-wrap: wrap; ????
 }
 
 .resume {
@@ -153,6 +149,7 @@ footer h3 {
 .contact-me {
     display : flex;
 }
+
 .contact-me h2 {
     display: flex;
     box-sizing: border-box;
@@ -169,3 +166,4 @@ footer h3 {
     justify-self: space-between;
     text-decoration: underline;
 }
+
