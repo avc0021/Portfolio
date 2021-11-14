@@ -126,13 +126,11 @@ footer h3 {
 .resume {
     display: flex;
     font-size: 30px;
-    height: 200px;
+    height: 150px;
     justify-content: flex-start;
-    padding: 20px;
     width: 600px;
     font-size: 20px;
-    padding: 0 0 0 0;
-    
+    padding: 500 0 0 0;
 }
 
 .resume-info{
@@ -149,6 +147,7 @@ footer h3 {
     font-size: 40px;
     display:inline-block;
     border-right: 4px solid black;
+    height: 100px;
 }
 
 .contact-me {
