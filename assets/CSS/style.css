@@ -57,6 +57,10 @@ header h1 {
 header a {
     text-decoration: none;
   }
+  
+footer h3 {
+    text-align: center;
+}
 
 .hero {
     background-image: url("../images/bluelines.jpg");
@@ -65,76 +69,93 @@ header a {
     padding-bottom: 12%;
 }
 
-.flex-row {
-    align-items: center;
-    display: flex;
-    font-size: 30px;
-    height: 300px;
-    justify-content: center;
-    padding: 20px;
-    width: 600px;
-}
-
 .about {
   display: flex;
   font-size: 30px;
   height: 300px;
   justify-content: flex-start;
-  padding: 20px;
   width: 600px;
-  font-size: 20px;
+  padding: 0 0 0 0;
 }
+
+.about-info {
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 30px;
+    width: 600px;
+    font-size: 30px;
+}
+
 .about h2 {
     box-sizing: border-box;
     padding: 0 30px 0 100px;
     font-size: 40px;
     display:inline-block;
     border-right: 4px solid black;
+    height: 100px;
+}
+
+.work {
+    display: flex;
+    font-size: 30px;
+    height: 200px;
+    justify-content: flex-start;
+    padding: 0 0 0 0;
+    width: 600px;
+    font-size: 20px;
 }
 
 .work h2 {
     box-sizing: border-box;
-    padding: 0 29px 0 100px;
+    padding: 0 39px 0 100px;
     font-size: 40px;
     display:inline-block;
     border-right: 4px solid black;
 }
-.work .step-info {
-    text-align: right;
+
+.resume {
+    display: flex;
+    font-size: 30px;
+    height: 200px;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 600px;
+    font-size: 20px;
+    padding: 0 0 0 0;
+    
+}
+
+.resume-info{
+    font-size: 10px;
+    padding: 0 39px 0 30px;
     display: inline-block;
-    margin-left: 100px;
+    justify-self: space-between;
+
 }
-
-.step-img {
-    max-width: 100%;
-    object-fit: contain;
-}
-
-
-
 
 .resume h2 {
     box-sizing: border-box;
-    padding: 0 10px 0 100px;
+    padding: 0 10px 0 92px;
     font-size: 40px;
     display:inline-block;
     border-right: 4px solid black;
 }
 
-.resume-info {
-    display: inline-block;
-    justify-self: space-between;
-    
-
+.contact-me {
+    display : flex;
 }
-.contact h2 {
+.contact-me h2 {
+    display: flex;
     box-sizing: border-box;
-    padding: 0 10px 0 35px;
+    padding: 0 10px 0 28px;
     font-size: 40px;
     display:inline-block;
     border-right: 4px solid black;
 }
-.contact-info {
+.contact-info h5 {
+    display: flex;
+    font-size: 15px;
+    padding: 0 39px 0 30px;
     display: inline-block;
     justify-self: space-between;
     text-decoration: underline;
