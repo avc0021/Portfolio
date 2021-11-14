@@ -4,8 +4,8 @@
     --tertiary-color: #4898ce;
 }
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -13,6 +13,12 @@ body {
     color: var(--primary-color);  
     background-color: var(--secondary-color);
 }
+img {
+    float: right;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+  }
 header {
     text-decoration: none;
     padding: 0 0 0 40px;
@@ -60,14 +66,71 @@ header a {
 }
 
 .flex-row {
-    text-align: right;
-    display: inline;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+    flex-direction:row;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
-.intro {
-    font size: 50px;
+
+.about h2 {
+    box-sizing: border-box;
+    padding: 0 20px 0 100px;
+    font-size: 40px;
+    display:inline-block;
+    border-right: 4px solid black;
+}
+
+.work h2 {
+    box-sizing: border-box;
+    padding: 0 29px 0 100px;
+    font-size: 40px;
+    display:inline-block;
+    border-right: 4px solid black;
+}
+.work .step-info {
+    text-align: right;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.step-img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+.resume h2 {
+    box-sizing: border-box;
+    padding: 0 10px 0 100px;
+    font-size: 40px;
+    display:inline-block;
+    border-right: 4px solid black;
+}
+.resume p {
 
 }
-.about h2 {
-    font-size: 40px;
+.resume-info {
+    display: inline-block;
+    justify-self: space-between;
+    
+
 }
-/*delete once done */
+.contact h2 {
+    box-sizing: border-box;
+    padding: 0 10px 0 35px;
+    font-size: 40px;
+    display:inline-block;
+    border-right: 4px solid black;
+}
+.contact-info {
+    display: inline-block;
+    justify-self: space-between;
+    text-decoration: underline;
+}
