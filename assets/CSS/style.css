@@ -11,7 +11,7 @@
 }
 
 body {  
-    background-color: var(--tertiary-color);
+    background-color: var(--tertiary-color); 
 }
 
 img {
@@ -49,6 +49,7 @@ header nav ul {
     justify-content: space-between;
     flex-wrap: wrap; 
 }
+
 header nav ul li {
     display: inline;
     
@@ -158,6 +159,7 @@ footer h3 {
     display:inline-block;
     border-right: 4px solid black;
 }
+
 .contact-info h5 {
     display: flex;
     font-size: 15px;
