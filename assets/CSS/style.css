@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #0b0d0ef5;
+    --primary-color: #052636f5;
     --secondary-color: #ebf0f3;
-    --tertiary-color: #bddaee;
+    --tertiary-color: #e7ecee;
 }
 
 * {
@@ -31,10 +31,10 @@ header {
 
 header h1 {
     color: var(--tertiary-color);
-    background-color: #012435;
     padding: 0 20px 0 0;
     font-weight: bold;
     font-size: 30px;   
+    padding: 10px 10px 10px 10px;
 }
 
 header nav {
@@ -70,7 +70,7 @@ footer h3 {
 }
 
 .hero {
-    background-image: url("../images/bluelines.jpg");
+    background-image: url("../images/Wave-banner-plain.jpg");
     background-size: cover;
     display:block;
     padding-bottom: 12%;
