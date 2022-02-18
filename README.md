@@ -1,31 +1,41 @@
 # Portfolio
 
-Tech-Blog
-Table of Contents
-Contributing
-Description
-Languages
-Usage
-Questions
+# Table of Contents
 
-Contributing
+[Contributing](#name)</br>
+[Description](#description)</br>
+[Languages](#languages)</br>
+[Install](#install)</br>
+[Usage](#usage)</br>
+[License](#license)</br>
+[Questions](#github)</br>
+
+# Contributing
+
 Adam Castro
 
-Description
-AS A developer who writes about tech I WANT a CMS-style blog site SO THAT I can publish articles, blog posts, and my thoughts and opinions
+# Description
+This displays the projects credited by Adam Castro and also collaborations with groups as well. 
 
-Languages
-HTML, CSS, Javascript
+# Languages
 
-Install
-None
+HTML</br>
+CSS</br>
+Javascript
 
-Usage
-This app displays a portfolio of full stack web development projects created by Adam Castro. This portfolio also includes three group projects. 
+# Install
 
-License
 N/A
 
-Questions
-Github: https://github.com/avc0021
+# Usage
+
+This app can be lauched using your local browser. 
+
+# License
+
+N/A
+
+# Questions
+
+Github: https://github.com/avc0021</br>
 Email: avc0021@gmail.com
